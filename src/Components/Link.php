@@ -7,8 +7,6 @@ namespace Mobtexting\LaravelComponents\Components;
 class Link extends Component
 {
     public array $defaults = [];
-<<<<<<< Updated upstream
-=======
 
     public string $action = '';
 
@@ -46,5 +44,4 @@ class Link extends Component
     {
         return $this->isAuthorized();
     }
->>>>>>> Stashed changes
 }
