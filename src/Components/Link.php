@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Mobtexting\LaravelComponents\Components;
 
+use InvalidArgumentException;
+
 class Link extends Component
 {
     public array $defaults = [];
